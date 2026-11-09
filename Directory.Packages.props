@@ -1,0 +1,14 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <AvaloniaVersion>12.1.5</AvaloniaVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Avalonia" Version="$(AvaloniaVersion)" />
+    <PackageVersion Include="Avalonia.Desktop" Version="$(AvaloniaVersion)" />
+    <PackageVersion Include="Avalonia.Themes.Simple" Version="$(AvaloniaVersion)" />
+    <PackageVersion Include="Avalonia.Headless" Version="$(AvaloniaVersion)" />
+    <PackageVersion Include="xunit.v3.mtp-v2" Version="3.2.2" />
+    <PackageVersion Include="Microsoft.Testing.Extensions.TrxReport" Version="2.0.2" />
+  </ItemGroup>
+</Project>

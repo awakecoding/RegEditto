@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <Authors>RegEditto contributors</Authors>
+    <Copyright>Copyright (c) RegEditto contributors</Copyright>
+    <RepositoryUrl>https://github.com/awakecoding/RegEditto</RepositoryUrl>
+  </PropertyGroup>
+</Project>

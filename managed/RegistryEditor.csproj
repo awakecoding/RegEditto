@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>RegEditto</AssemblyName>
+    <RootNamespace>RegistryEditor.Presentation</RootNamespace>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <IsPackable>false</IsPackable>
+    <PublishAot>true</PublishAot>
+    <JsonSerializerIsReflectionEnabledByDefault>false</JsonSerializerIsReflectionEnabledByDefault>
+    <ILLinkTreatWarningsAsErrors>true</ILLinkTreatWarningsAsErrors>
+    <IlcTreatWarningsAsErrors>true</IlcTreatWarningsAsErrors>
+    <ApplicationIcon>Assets\RegistryEditor.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Product>RegEditto</Product>
+    <Title>RegEditto</Title>
+    <Description>Compact classic Windows registry editor</Description>
+    <Version>0.1.0</Version>
+    <AvaloniaUseCompiledBindingsByDefault>false</AvaloniaUseCompiledBindingsByDefault>
+  </PropertyGroup>
+  <ItemGroup>
+    <AvaloniaResource Include="Assets\RegistryEditor.ico" />
+    <PackageReference Include="Avalonia" />
+    <PackageReference Include="Avalonia.Desktop" />
+    <PackageReference Include="Avalonia.Themes.Simple" />
+  </ItemGroup>
+</Project>

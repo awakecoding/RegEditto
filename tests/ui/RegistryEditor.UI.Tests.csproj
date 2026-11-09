@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <IsTestProject>true</IsTestProject>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="DetailListTests.cs" />
+    <Compile Include="CommandLineTests.cs" />
+    <Compile Include="..\..\managed\Platform.cs" Link="Platform.cs" />
+    <ProjectReference Include="..\..\managed\RegistryEditor.csproj" />
+    <PackageReference Include="Avalonia.Headless" />
+    <PackageReference Include="xunit.v3.mtp-v2" />
+    <PackageReference Include="Microsoft.Testing.Extensions.TrxReport" />
+  </ItemGroup>
+</Project>

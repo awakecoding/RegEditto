@@ -1,0 +1,8 @@
+/target/
+/artifacts/
+/.avalonia/
+/managed/bin/
+/managed/obj/
+/tests/**/bin/
+/tests/**/obj/
+/tests/**/TestResults/
